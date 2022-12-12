@@ -1,35 +1,19 @@
-import WorkIm from '../assets/projects/workImg.jpeg'
-import RealEst from '../assets/projects/realestate.jpg'
+import Dogs from "../assets/projects/dogs.png";
+import DriveIn from "../assets/projects/drivein.jpeg";
 
-export const data=[
-    {
-        id:1,
-        name:"React JS Application",
-        image:WorkIm,
-        github:"",
-        live:"",
-    },
-    {
-        id:2,
-        name:"React JS Application",
-        image:RealEst,
-        github:"",
-        live:"",
-    },
-    {
-        id:3,
-        name:"React JS Application",
-        image:WorkIm,
-        github:"",
-        live:"",
-    },
-    {
-        id:4,
-        name:"React JS Application",
-        image:RealEst,
-        github:"",
-        live:"",
-    },
-
-
-]
+export const data = [
+  {
+    id: 1,
+    name: "Full-Stack Application",
+    image: Dogs,
+    github: "https://github.com/luqasmagra/DriveIn",
+    live: "https://drivein.vercel.app/",
+  },
+  {
+    id: 2,
+    name: "Full-Stack Application",
+    image: DriveIn,
+    github: "https://github.com/luqasmagra/Henry-Dogs",
+    live: "https://henry-dogs-tau.vercel.app/",
+  },
+];
