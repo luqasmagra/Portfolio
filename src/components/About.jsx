@@ -21,8 +21,8 @@ const About = () => {
           <div className="mt-3">
             <p>
               I like to be an orderly person and work in a professional work
-              environment in order to carry out my responsibilities in the most
-              optimal way possible and continue to develop myself personally and
+              environment to carry out my responsibilities in the most optimal
+              way possible and continue to develop myself personally and
               professionally.
             </p>
           </div>
