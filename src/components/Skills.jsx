@@ -94,6 +94,10 @@ const Skills = () => {
             <img className="w-20 mx-auto" src={Jira} alt="JIRA icon" />
             <p className="my-4">JIRA</p>
           </div>
+          <div className="shadow-md shadow-[#040c16] md:hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Figma} alt="FIGMA icon" />
+            <p className="my-4">FIGMA</p>
+          </div>
         </div>
         <div>
           <p className="py-4">// Technologies that i have some knowledge</p>
@@ -102,10 +106,6 @@ const Skills = () => {
           <div className="shadow-md shadow-[#040c16] md:hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Next} alt="NEXT icon" />
             <p className="my-4">NEXT</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] md:hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Figma} alt="FIGMA icon" />
-            <p className="my-4">FIGMA</p>
           </div>
         </div>
       </div>
