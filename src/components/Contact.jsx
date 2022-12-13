@@ -11,7 +11,7 @@ const Contact = () => {
     >
       <div className="pb-8">
         <p className=" text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300">
-          Contact
+          Contacto
         </p>
       </div>
       <div>
@@ -52,7 +52,7 @@ const Contact = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Resume <BsFillPersonLinesFill size={30} />
+              Resumen <BsFillPersonLinesFill size={30} />
             </a>
           </li>
         </ul>

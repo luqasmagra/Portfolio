@@ -5,27 +5,22 @@ const About = () => {
     <div name="about" className="w-full h-screen bg-[#0a192f] text-gray-300">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
-          <div className="sm:text-right pb-8 pl-4">
+          <div className="sm:text-left pb-8 pl-4">
             <p className="text-4xl font-bold inline border-b-4 border-pink-600">
-              About
+              Sobre mí
             </p>
           </div>
         </div>
-        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-          <div className="sm:text-right text-4xl font-bold">
+        <div className="max-w-[1000px] w-full px-4">
+          <div className="sm:text-left text-lg font-bold">
             <p>
-              Hi. I'm Lucas Magra, nice to meet you. Please take a look some
-              about me.
+              Me considero una persona apasionada con ganas de trabajar en un
+              ambiente profesional para desempeñar mis responsabilidades de la
+              manera más óptima posible y seguir desarrollándome tanto personal
+              como profesionalmente.
             </p>
           </div>
-          <div className="mt-3">
-            <p>
-              I like to be an orderly person and work in a professional work
-              environment to carry out my responsibilities in the most optimal
-              way possible and continue to develop myself personally and
-              professionally.
-            </p>
-          </div>
+          <div className="mt-1"></div>
         </div>
       </div>
     </div>
