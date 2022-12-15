@@ -68,10 +68,6 @@ const Skills = () => {
             <p className="my-4">STRIPE</p>
           </div>
           <div className="shadow-md shadow-[#040c16] md:hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={PostgreSQL} alt="PSQL icon" />
-            <p className="my-4">POSTGRESQL</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] md:hover:scale-110 duration-500">
             <img
               className="w-20 mx-auto"
               src={Sequelize}
@@ -79,6 +75,11 @@ const Skills = () => {
             />
             <p className="my-4">SEQUELIZE</p>
           </div>
+          <div className="shadow-md shadow-[#040c16] md:hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={PostgreSQL} alt="PSQL icon" />
+            <p className="my-4">POSTGRESQL</p>
+          </div>
+
           <div className="shadow-md shadow-[#040c16] md:hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={GitHub} alt="GITHUB icon" />
             <p className="my-4">GITHUB</p>
