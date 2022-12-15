@@ -64,10 +64,6 @@ const Skills = () => {
             <p className="my-4">EXPRESS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] md:hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Auth0} alt="AUTH0 icon" />
-            <p className="my-4">AUTHO</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] md:hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Stripe} alt="STRIPE icon" />
             <p className="my-4">STRIPE</p>
           </div>
@@ -87,18 +83,6 @@ const Skills = () => {
             <img className="w-20 mx-auto" src={GitHub} alt="GITHUB icon" />
             <p className="my-4">GITHUB</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] md:hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Slack} alt="SLACK icon" />
-            <p className="my-4">SLACK</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] md:hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Jira} alt="JIRA icon" />
-            <p className="my-4">JIRA</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] md:hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Figma} alt="FIGMA icon" />
-            <p className="my-4">FIGMA</p>
-          </div>
         </div>
         <div>
           <p className="py-4">// Tecnologias que tengo algun conocimiento</p>
@@ -107,6 +91,10 @@ const Skills = () => {
           <div className="shadow-md shadow-[#040c16] md:hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Next} alt="NEXT icon" />
             <p className="my-4">NEXT</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] md:hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Auth0} alt="AUTH0 icon" />
+            <p className="my-4">AUTHO</p>
           </div>
           <div className="shadow-md shadow-[#040c16] md:hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Mongo} alt="MONGODB icon" />
