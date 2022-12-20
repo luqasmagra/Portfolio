@@ -1,5 +1,5 @@
 import React from "react";
-import { data } from "../data/data.js";
+import { data } from "../data/works.js";
 
 const Work = () => {
   const projects = data;
@@ -15,7 +15,6 @@ const Work = () => {
           </p>
           <p className="py-6">// Algunos de mis proyectos recientes</p>
         </div>
-
         <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-4">
           {projects.map((item, index) => (
             <div
