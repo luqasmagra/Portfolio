@@ -2,12 +2,21 @@ import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 
+import Whatsapp from "../assets/wsp.png";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+      <a
+        className="fixed right-6 bottom-6 w-20 h-20 text-green"
+        href="https://wa.me/543584380680"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img src={Whatsapp} alt="wsp icon" />
+      </a>
       <div className="font-bold text-xl border-b-4 border-pink-600">
         <h1>luqasmagra</h1>
       </div>

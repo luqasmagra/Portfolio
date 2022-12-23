@@ -15,7 +15,7 @@ const Contact = () => {
         </p>
       </div>
       <div>
-        <ul className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 ">
+        <ul className="w-full grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4 ">
           <li className="w-[160px] h-[60px] flex justify-between items-center  md:hover:scale-110 duration-500  bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"

@@ -11,6 +11,7 @@ import Sequelize from "../assets/sequelize.png";
 import Stripe from "../assets/stripe.png";
 import Redux from "../assets/redux.png";
 import Git from "../assets/git.png";
+import Auth0 from "../assets/auth0.png";
 
 export const data = [
   { name: "HTML", image: HTML },
@@ -22,6 +23,7 @@ export const data = [
   { name: "TAILWIND", image: Tailwind },
   { name: "EXPRESS", image: Express },
   { name: "STRIPE", image: Stripe },
+  { name: "AUTHO", image: Auth0 },
   { name: "SEQUELIZE", image: Sequelize },
   { name: "POSTGRESQL", image: PostgreSQL },
   { name: "GITHUB", image: GitHub },
