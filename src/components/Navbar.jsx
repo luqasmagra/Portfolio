@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 
@@ -8,7 +8,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+    <div className="fixed w-full h-[80px] flex justify-around items-center px-4 bg-[#0a192f] text-gray-300">
       <a
         className="fixed right-6 bottom-6 w-20 h-20 text-green"
         href="https://wa.me/543584380680"
@@ -22,27 +22,52 @@ const Navbar = () => {
       </div>
       <ul className="hidden md:flex">
         <li>
-          <Link to="home" smooth={true} duration={500}>
+          <Link
+            to="home"
+            smooth={true}
+            duration={500}
+            className="hover:bg-[#ccd6f6] font-bold hover:text-pink-600 rounded p-2 duration-700"
+          >
             Home
           </Link>
         </li>
         <li>
-          <Link to="about" smooth={true} duration={500}>
+          <Link
+            to="about"
+            smooth={true}
+            duration={500}
+            className="hover:bg-[#ccd6f6] font-bold hover:text-pink-600 rounded p-2 duration-700"
+          >
             Sobre mí
           </Link>
         </li>
         <li>
-          <Link to="skills" smooth={true} duration={500}>
+          <Link
+            to="skills"
+            smooth={true}
+            duration={500}
+            className="hover:bg-[#ccd6f6] font-bold hover:text-pink-600 rounded p-2 duration-700"
+          >
             Tecnologias
           </Link>
         </li>
         <li>
-          <Link to="work" smooth={true} duration={500}>
+          <Link
+            to="work"
+            smooth={true}
+            duration={500}
+            className="hover:bg-[#ccd6f6] font-bold hover:text-pink-600 rounded p-2 duration-700"
+          >
             Trabajos
           </Link>
         </li>
         <li>
-          <Link to="contact" smooth={true} duration={500}>
+          <Link
+            to="contact"
+            smooth={true}
+            duration={500}
+            className="hover:bg-[#ccd6f6] font-bold hover:text-pink-600 rounded p-2 duration-700"
+          >
             Contacto
           </Link>
         </li>

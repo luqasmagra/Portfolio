@@ -20,7 +20,7 @@ const Work = () => {
               className="shadow-lg shadow-[#040c16] group container rounded-md 
               flex justify-center text-center items-center mx-auto content-div "
             >
-              <div className="opacity-0 group-hover:opacity-100 duration-300">
+              <div className="opacity-0 group-hover:opacity-100 duration-700">
                 <span className="text-2xl font-bold text-white tracking-wider ">
                   {item.name}
                 </span>
@@ -28,17 +28,17 @@ const Work = () => {
                   <a href={item.github} target="_blank" rel="noreferrer">
                     <button
                       className="text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-gray-700 font-bold text-lg"
+                       bg-white text-gray-700 font-bold text-lg hover:bg-gray-700 hover:text-white duration-700"
                     >
-                      Code
+                      Repositorio
                     </button>
                   </a>
                   <a href={item.live} target="_blank" rel="noreferrer">
                     <button
                       className="text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-gray-700 font-bold text-lg"
+                       bg-white text-gray-700 font-bold text-lg hover:bg-gray-700 hover:text-white duration-700"
                     >
-                      Live
+                      Deploy
                     </button>
                   </a>
                 </div>
