@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react";
 import { data } from "../data/works.js";
 
@@ -10,7 +11,7 @@ const Work = () => {
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
             Trabajos
           </p>
-          <p className="py-6">//Algunos de mis proyectos recientes</p>
+          <p className="py-6">// Algunos de mis proyectos recientes</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-4">
           {projects.map((item, index) => (

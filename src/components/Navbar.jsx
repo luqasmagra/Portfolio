@@ -18,7 +18,7 @@ const Navbar = () => {
         <img src={Whatsapp} alt="wsp icon" />
       </a>
       <div className="font-bold text-xl border-b-4 border-pink-600">
-        <h1>luqasmagr</h1>
+        <h1>luqasmagra</h1>
       </div>
       <ul className="hidden md:flex">
         <li>
