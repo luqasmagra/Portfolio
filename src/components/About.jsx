@@ -2,7 +2,7 @@
 const About = () => {
   return (
     <div
-      name="about"
+      name="Sobre mi"
       className="w-full h-screen bg-[#0a192f] text-gray-300 js-show-on-scroll"
     >
       <div className="flex flex-col justify-center items-center w-full h-full">

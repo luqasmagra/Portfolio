@@ -6,7 +6,7 @@ import { data } from "../data/skills.js";
 const Skills = () => {
   const technologies = data;
   return (
-    <div name="skills" className="w-full bg-[#0a192f] text-gray-300">
+    <div name="Tecnologias" className="w-full bg-[#0a192f] text-gray-300">
       <div className="max-w-[1000px] mx-auto p-4 justify-center w-full h-full">
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-pink-600 ">

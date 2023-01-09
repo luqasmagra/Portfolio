@@ -6,7 +6,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 const Contact = () => {
   return (
     <div
-      name="contact"
+      name="Contacto"
       className="w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center p-4"
     >
       <div className="pb-8">
