@@ -14,19 +14,19 @@ const Work = () => {
           <p className="py-6">// Algunos de mis proyectos recientes</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-4">
-          {projects.map((item, index) => (
+          {projects.map(({ image, name, github, live }, index) => (
             <div
               key={index}
-              style={{ backgroundImage: `url(${item.image})` }}
+              style={{ backgroundImage: `url(${image})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md 
-              flex justify-center text-center items-center mx-auto content-div "
+              flex justify-center text-center items-center mx-auto content-div cursor-pointer"
             >
-              <div className="opacity-0 group-hover:opacity-100 duration-700">
+              <div className="opacity-0 group-hover:opacity-100  duration-700">
                 <span className="text-2xl font-bold text-white tracking-wider ">
-                  {item.name}
+                  {name}
                 </span>
                 <div className="pt-8 text-center ">
-                  <a href={item.github} target="_blank" rel="noreferrer">
+                  <a href={github} target="_blank" rel="noreferrer">
                     <button
                       className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg hover:bg-gray-700 hover:text-white duration-700"
@@ -34,7 +34,7 @@ const Work = () => {
                       Repositorio
                     </button>
                   </a>
-                  <a href={item.live} target="_blank" rel="noreferrer">
+                  <a href={live} target="_blank" rel="noreferrer">
                     <button
                       className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg hover:bg-gray-700 hover:text-white duration-700"

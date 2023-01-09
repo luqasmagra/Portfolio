@@ -8,7 +8,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-around items-center px-4 bg-[#0a192f] text-gray-300">
+    <div className="fixed mx-auto w-full h-[80px] flex justify-around items-center px-4 bg-[#0a192f] text-gray-300">
       <a
         className="fixed right-6 bottom-6 w-20 h-20 text-green"
         href="https://wa.me/543584380680"
@@ -17,7 +17,7 @@ const Navbar = () => {
       >
         <img src={Whatsapp} alt="wsp icon" />
       </a>
-      <div className="font-bold text-xl border-b-4 border-pink-600">
+      <div className="font-bold text-xl border-b-4 border-pink-600 cursor-pointer hover:border-gray-300 transition hover:text-pink-600">
         <h1>luqasmagra</h1>
       </div>
       <ul className="hidden md:flex">
@@ -26,7 +26,7 @@ const Navbar = () => {
             to="home"
             smooth={true}
             duration={500}
-            className="hover:bg-[#ccd6f6] font-bold hover:text-pink-600 rounded p-2 duration-700"
+            className="font-bold hover:text-pink-600 rounded p-2 duration-700"
           >
             Home
           </Link>
@@ -36,7 +36,7 @@ const Navbar = () => {
             to="about"
             smooth={true}
             duration={500}
-            className="hover:bg-[#ccd6f6] font-bold hover:text-pink-600 rounded p-2 duration-700"
+            className="font-bold hover:text-pink-600 rounded p-2 duration-700"
           >
             Sobre mí
           </Link>
@@ -46,7 +46,7 @@ const Navbar = () => {
             to="skills"
             smooth={true}
             duration={500}
-            className="hover:bg-[#ccd6f6] font-bold hover:text-pink-600 rounded p-2 duration-700"
+            className="font-bold hover:text-pink-600 rounded p-2 duration-700"
           >
             Tecnologias
           </Link>
@@ -56,7 +56,7 @@ const Navbar = () => {
             to="work"
             smooth={true}
             duration={500}
-            className="hover:bg-[#ccd6f6] font-bold hover:text-pink-600 rounded p-2 duration-700"
+            className="font-bold hover:text-pink-600 rounded p-2 duration-700"
           >
             Trabajos
           </Link>
@@ -66,7 +66,7 @@ const Navbar = () => {
             to="contact"
             smooth={true}
             duration={500}
-            className="hover:bg-[#ccd6f6] font-bold hover:text-pink-600 rounded p-2 duration-700"
+            className="font-bold hover:text-pink-600 rounded p-2 duration-700"
           >
             Contacto
           </Link>

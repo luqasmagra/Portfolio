@@ -1,6 +1,6 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react";
 import Next from "../assets/next.png";
-// import Mongo from "../assets/mongodb.png";
 import { data } from "../data/skills.js";
 
 const Skills = () => {
@@ -16,17 +16,13 @@ const Skills = () => {
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
-          {technologies.map((item, index) => (
+          {technologies.map(({ image, name }, index) => (
             <div
               className="shadow-md shadow-[#040c16] md:hover:scale-110 duration-500"
               key={index}
             >
-              <img
-                className="w-20 mx-auto"
-                src={item.image}
-                alt={`${item.name} icon`}
-              />
-              <p className="my-4">{item.name}</p>
+              <img className="w-20 mx-auto" src={image} alt={`${name} icon`} />
+              <p className="my-4">{name}</p>
             </div>
           ))}
         </div>
@@ -38,10 +34,6 @@ const Skills = () => {
             <img className="w-20 mx-auto" src={Next} alt="NEXT icon" />
             <p className="my-4">NEXT</p>
           </div>
-          {/* <div className="shadow-md shadow-[#040c16] md:hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Mongo} alt="MONGODB icon" />
-            <p className="my-4">MONGO DB</p>
-          </div> */}
         </div>
       </div>
     </div>

@@ -48,7 +48,7 @@ const Contact = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center  md:hover:scale-110 duration-500  bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://drive.google.com/file/d/1VSAzJILLQ4LBcHqwGNqKIM3_wh1DABB-/view?usp=share_link"
+              href="https://drive.google.com/file/d/1F8ldz9nZdMlRGP6twTmJyQBIK1cIDPyy/view?usp=share_link"
               target="_blank"
               rel="noreferrer"
             >
